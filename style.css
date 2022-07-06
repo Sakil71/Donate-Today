@@ -129,5 +129,8 @@ footer{
     text-align: center;
     background-color: black;
     color: whitesmoke;
-    padding: 30px;
+    padding: 20px;
+}
+.footer-font{
+    font-family: 'Lobster', cursive;
 }
