@@ -60,9 +60,9 @@ a{
     padding-bottom: 20px; 
 }
 .other-amount{
-    margin-top: 4px;
+    margin-top: 8px;
     width: 45%;
-    text-align: start;
+    text-align: center;
     border: 0;
     border-bottom: 1px solid gray;
 }
@@ -114,6 +114,7 @@ a{
     background-color: rgb(195, 195, 195);
     border: 0;
     border-radius: 6px 0 0 6px;
+    margin-right: -3px;
     
 }
 .button{
@@ -122,6 +123,7 @@ a{
     background-color: red;
     border-color: red;
     border-radius: 0 6px 6px 0 ;
+    margin-left: -2px;
 }
 footer{
     text-align: center;
