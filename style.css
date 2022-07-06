@@ -3,11 +3,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .background-img{
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/flood4.jpg);
     background-size: cover;
-    filter:blur(4px);
+    filter:blur(2px);
     background-repeat: no-repeat;
-    padding: 300px;
+    padding-bottom: 610px;
     height: 100%;    
 }
 .background-text{
@@ -24,10 +24,10 @@ h1{
 }
 a{
     text-decoration: none;
-    background-image: linear-gradient(gold,yellow);
+    background-image:radial-gradient(tomato, red);
     padding: 4px 25px;
-    border-radius: 5px;
-    color:darkblue;
+    border-radius: 3px;
+    color:black;
     font-weight: 700;
     text-align: center;
     display: inline-block;
@@ -72,7 +72,7 @@ a{
 .our-plan{
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .mission{
     display: flex;
@@ -97,13 +97,28 @@ a{
 #for-shelter{
     background-color: rgb(225, 189, 189);
 }
+.your-donation{
+    display: flex;
+}
+.their-lives{
+    width: 50%;
+    margin: 50px;
+}
+.their-lives img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contribute-one{
+    padding-bottom: 80px;
+}
 .Subscribtion{
     text-align: center; 
-    padding-bottom: 100px;   
+    padding-bottom: 100px;
+    padding-top: 40px;   
 }
 .input-email{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2); 
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 40px;
     background-color: rgb(171, 162, 160);
     width: 50%;
@@ -120,8 +135,7 @@ a{
 .button{
     border: 0;
     padding: 6px 35px;
-    background-color: red;
-    border-color: red;
+    background-color: tomato;
     border-radius: 0 6px 6px 0 ;
     margin-left: -2px;
 }
@@ -132,5 +146,6 @@ footer{
     padding: 20px;
 }
 .footer-font{
+    color: tomato;
     font-family: 'Lobster', cursive;
 }
