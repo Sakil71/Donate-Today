@@ -5,10 +5,10 @@ body{
 .background-img{
     background-image: url(images/flood4.jpg);
     background-size: cover;
-    filter:blur(2px);
+    filter:blur(4px);
     background-repeat: no-repeat;
     padding-bottom: 610px;
-    height: 100%;    
+      
 }
 .background-text{
     text-align: center;
