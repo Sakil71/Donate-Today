@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.background-img{
+    background-image: url(images/donation5.jpg);
+    background-size: cover;
+    filter:blur(4px);
+    background-repeat: no-repeat;
+    padding: 300px;
+    height: 100%;    
+}
+.background-text{
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-weight: 700; 
+}
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(gold,yellow);
+    padding: 4px 25px;
+    border-radius: 5px;
+    color:darkblue;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,2);
+}
+.donation-system{
+    text-align: center;
+    padding-top: 40px;
+}
+.amount-tk{
+    display: flex;
+    text-align: center;
+    padding-left: 300px;
+    padding-bottom: 60px;   
+}
+.tk{
+    margin: 20px;
+    padding: 15px;
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+#highlight-amount{
+    border: 1px solid red;
+    background-color: rgb(232, 213, 210);
+}
+.input-amount{
+    text-align: center; 
+}
+.input-number{
+    padding-bottom: 20px; 
+}
+.other-amount{
+    margin-top: 4px;
+    width: 45%;
+    text-align: start;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+.show-amount{
+    margin: -7px;   
+}
+.our-plan{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.mission{
+    display: flex;
+    margin: 40px;
+    text-align: left;
+}
+.liflet{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.liflet img{
+    width: 40px;
+}
+#for-food{
+    background-color: rgb(206, 181, 206);
+}
+#for-blood{
+    background-color: rgb(198, 194, 170);
+}
+#for-shelter{
+    background-color: rgb(225, 189, 189);
+}
+.Subscribtion{
+    text-align: center; 
+    padding-bottom: 100px;   
+}
+.input-email{
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2); 
+    padding-bottom: 30px;
+    padding-top: 40px;
+    background-color: rgb(171, 162, 160);
+    width: 50%;
+    margin-left: 330px;
+}
+.email-add{
+    padding: 6px 35px;
+    background-color: rgb(195, 195, 195);
+    border: 0;
+    border-radius: 6px 0 0 6px;
+    
+}
+.button{
+    border: 0;
+    padding: 6px 35px;
+    background-color: red;
+    border-color: red;
+    border-radius: 0 6px 6px 0 ;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+}
