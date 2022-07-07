@@ -40,7 +40,7 @@ a{
 .amount-tk{
     display: flex;
     text-align: center;
-    padding-left: 300px;
+    padding-left: 320px;
     padding-bottom: 60px;   
 }
 .tk{
@@ -52,6 +52,7 @@ a{
 #highlight-amount{
     border: 1px solid red;
     background-color: rgb(232, 213, 210);
+    color: red;
 }
 .input-amount{
     text-align: center; 
@@ -80,7 +81,7 @@ a{
     text-align: left;
 }
 .liflet{
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
@@ -89,13 +90,13 @@ a{
     width: 40px;
 }
 #for-food{
-    background-color: rgb(206, 181, 206);
+    background-color: rgb(228, 231, 220)
 }
 #for-blood{
-    background-color: rgb(198, 194, 170);
+    background-color: rgb(230, 224, 230);
 }
 #for-shelter{
-    background-color: rgb(225, 189, 189);
+    background-color: rgb(211, 219, 223);
 }
 .your-donation{
     display: flex;
